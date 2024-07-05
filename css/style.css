@@ -210,7 +210,81 @@ figure {
             text-decoration: none;
             outline: none;
             color: #2c98f0; }
-
+            .colorlib-services {
+              padding: 3em 0;
+            }
+            
+            .colorlib-narrow-content {
+              margin: 0 auto;
+              width: 75%;
+            }
+            
+            .heading-meta {
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              color: #2c98f0;
+              font-size: 12px;
+            }
+            
+            .colorlib-heading {
+              font-size: 2.5em;
+              color: #2c98f0;
+            }
+            
+            .row-pt-md {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              margin-top: 2em;
+            }
+            
+            .col-md-4 {
+              flex: 0 0 33.3333%;
+              max-width: 33.3333%;
+              padding: 15px;
+              box-sizing: border-box;
+            }
+            
+            .services {
+              border: 1px solid #e6e6e6;
+              background: #fff;
+              padding: 30px;
+              text-align: center;
+              border-radius: 10px;
+              margin-bottom: 2em;
+            }
+            
+            .services .icon {
+              font-size: 3em;
+              color: #2c98f0;
+              margin-bottom: 1em;
+            }
+            
+            .services .desc {
+              margin-top: 1em;
+            }
+            
+            .services .desc h3 {
+              font-size: 1.5em;
+              margin-bottom: 1em;
+              color: #2c98f0;
+            }
+            
+            .services .desc p {
+              color: #6c757d;
+            }
+            
+            @media (max-width: 768px) {
+              .colorlib-narrow-content {
+                width: 90%;
+              }
+              
+              .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+              }
+            }
+            
 .container-wrap {
   max-width: 1170px;
   margin: 0 auto; }
