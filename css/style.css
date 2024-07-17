@@ -52,7 +52,7 @@ figure {
         width: 100%; } }
 
 ::-webkit-selection {
-  color: #000000;
+  color: #fff;
   background: #2c98f0; }
 
 ::-moz-selection {
